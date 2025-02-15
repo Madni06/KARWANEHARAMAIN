@@ -1,52 +1,184 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>KARWANEHARAMAIN</title>
+    <title>Karwan-e-Haramain | Umrah Tours</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Supherhero">
-    <meta name="keywords" content="programming hero,learn programming">
+    <meta name="description" content="Experience spiritual journey with Karwan-e-Haramain - Your trusted partner for Umrah tours">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/vnd.microsoft.icon">
-    <!--@bootstrapCss-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <!--custom css-->
-    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <style>
+        :root {
+            --primary-color: #2E8B57;
+            --secondary-color: #DAA520;
+        }
+        
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background: #f8f9fa;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url('https://i.ibb.co/W654LMX/Screenshot-2024-05-18-13-23-06-10.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 120px 0;
+            text-align: center;
+        }
+        
+        .package-card {
+            border: none;
+            border-radius: 15px;
+            transition: transform 0.3s;
+            background: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .package-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .icon-box {
+            width: 60px;
+            height: 60px;
+            background: var(--primary-color);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            color: white;
+            font-size: 24px;
+        }
+        
+        .highlight-badge {
+            background: var(--secondary-color);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 1.1rem;
+        }
+    </style>
 </head>
 <body>
-<div id="app">
-   <marquee> <h1>KARWAN E HARAMAIN </h1> </marquee>
 
-    <div class="alert alert-primary" role="alert">
-        KARWAN E HARAMAIN JULY UMRAH TOUR
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <i class="fas fa-kaaba"></i> Karwan-e-Haramain
+        </a>
     </div>
-     <h2>PACKAGE INCLUSIONS </h2>
-<ol FEATURES>
-            <li>3 STAR HOTEL APPROX 200 meter far from haram in madinah</li>
-            <li>3 STAR HOTEL Approx 600 meters far from haram in makkah</li>
-            <li>LUNCH,BREAKFAST,DINNER</li>
-            <li>5 lTR of zam zam on return</li>
-            <li>1 day zayarat in Makkah </li>
-            <li>1 day zayarat in madinah</li>
-            <li><strong> 22 Days </strong >
-            
-            <li> and many more just in <strong>99,786Rs.</strong></li>
-            </ol>
-         <p> FOR MORE INFO <br> CONTACT NO :- 9998698973 <br> check out our instagram posts<br><a href="https://www.instagram.com/tv/C69iTLPrXj7/?igsh=OXk1dzU2bTRwMHEy">INSTAGRAM<a></p>
-         
-        <a href="https://ibb.co/6mw7kTS"><img src="https://i.ibb.co/W654LMX/Screenshot-2024-05-18-13-23-06-10.jpg" alt="Screenshot-2024-05-18-13-23-06-10" border="0"></a>
+</nav>
+
+<!-- Hero Section -->
+<header class="hero-section">
+    <div class="container">
+        <h1 class="display-4 mb-4">Experience Spiritual Journey</h1>
+        <p class="lead mb-4">July Umrah Tour Package</p>
+        <div class="highlight-badge d-inline-block">Only 99,786 PKR</div>
+    </div>
+</header>
+
+<!-- Package Features -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5" style="font-family: 'Playfair Display', serif;">Package Inclusions</h2>
         
+        <div class="row">
+            <!-- Hotel Features -->
+            <div class="col-md-4 mb-4">
+                <div class="package-card p-4 text-center">
+                    <div class="icon-box">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h4>Premium Accommodation</h4>
+                    <p>3-star hotels within walking distance from Haram</p>
+                    <ul class="list-unstyled">
+                        <li>Makkah: 600 meters</li>
+                        <li>Madinah: 200 meters</li>
+                    </ul>
+                </div>
+            </div>
 
-</div>
+            <!-- Services -->
+            <div class="col-md-4 mb-4">
+                <div class="package-card p-4 text-center">
+                    <div class="icon-box">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h4>Full Board Meal Plan</h4>
+                    <p>Daily meals included</p>
+                    <ul class="list-unstyled">
+                        <li>Breakfast</li>
+                        <li>Lunch</li>
+                        <li>Dinner</li>
+                    </ul>
+                </div>
+            </div>
 
-<!---->
-<script src="js/vue.min.js"></script>
-<script src="js/app.js"></script>
+            <!-- Ziyarat -->
+            <div class="col-md-4 mb-4">
+                <div class="package-card p-4 text-center">
+                    <div class="icon-box">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h4>Guided Ziyarat</h4>
+                    <ul class="list-unstyled">
+                        <li>1 day Makkah Ziyarat</li>
+                        <li>1 day Madinah Ziyarat</li>
+                        <li>5L Zam Zam Water</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- CTA Section -->
+<section class="bg-primary text-white py-5">
+    <div class="container text-center">
+        <h3 class="mb-4">Limited Seats Available!</h3>
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card bg-dark text-white">
+                    <div class="card-body">
+                        <h5 class="card-title"><i class="fas fa-phone-alt mr-2"></i>Contact Now</h5>
+                        <p class="card-text display-5">999 869 8973</p>
+                        <a href="https://www.instagram.com/tv/C69iTLPrXj7/" class="btn btn-light">
+                            <i class="fab fa-instagram mr-2"></i>View Instagram
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+        <p class="mb-0">&copy; 2024 Karwan-e-Haramain. All rights reserved</p>
+    </div>
+</footer>
 
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-<!--main js-->
-<script src="js/main.js"></script>
 </body>
 </html>
